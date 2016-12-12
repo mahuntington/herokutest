@@ -21,6 +21,6 @@ mongoose.connection.once('open', function(){
     console.log('connected mongod');
 })
 
-app.listen(port, process.env.IP, function(){
+app.listen(port, function(){
     console.log('listening on port ' + process.env.PORT);
 })
